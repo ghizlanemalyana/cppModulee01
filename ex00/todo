@@ -1,0 +1,13 @@
+// this-> pointer
+
+// here in this we alocat for an Zombie object
+// what is the deferent betwheen this "Zombie::~Zombie()
+// {
+// 	std::cout << this->name << " is dead" << std::endl;
+// }" and this "Zombie::~Zombie()
+// {
+// 	std::cout << name << " is dead" << std::endl;
+// }"
+
+// ClassName* pointerName = new ClassName(constructorArguments);
+// Zombie* zombie = new Zombie("HeapZombie"); // Allocates a Zombie object on the heap
