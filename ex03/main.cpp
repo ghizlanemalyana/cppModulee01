@@ -5,10 +5,11 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: gmalyana <gmalyana@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/09 20:37:30 by gmalyana          #+#    #+#             */
-/*   Updated: 2025/02/18 19:26:36 by gmalyana         ###   ########.fr       */
+/*   Created: 2025/03/12 17:56:53 by gmalyana          #+#    #+#             */
+/*   Updated: 2025/03/12 18:22:10 by gmalyana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #include "Weapon.hpp"
 #include "HumanB.hpp"

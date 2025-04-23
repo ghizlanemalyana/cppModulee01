@@ -1,8 +1,0 @@
-// free object
-
-//     // Free the memory for each Zombie object
-//     for (int i = 0; i < N; i++) {
-//         delete zombies[i]; // Call destructor and free memory
-//     }
-
-// handlethe case of N <= 0;

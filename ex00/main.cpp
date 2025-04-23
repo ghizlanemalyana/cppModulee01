@@ -6,17 +6,11 @@
 /*   By: gmalyana <gmalyana@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/08 18:40:24 by gmalyana          #+#    #+#             */
-/*   Updated: 2025/02/16 13:23:24 by gmalyana         ###   ########.fr       */
+/*   Updated: 2025/03/12 19:57:23 by gmalyana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "zombie.hpp"
-
-Zombie* newZombie(std::string name )
-{
-	Zombie *zombie = new Zombie(name); 
-	return (zombie);
-}
+#include "Zombie.hpp"
 
 int main()
 {
@@ -26,5 +20,3 @@ int main()
 	delete zz;
 	return 0;
 }
-
-

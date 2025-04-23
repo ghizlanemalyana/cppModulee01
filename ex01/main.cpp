@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: gmalyana <gmalyana@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/08 22:30:50 by gmalyana          #+#    #+#             */
-/*   Updated: 2025/02/17 17:48:04 by gmalyana         ###   ########.fr       */
+/*   Created: 2025/03/12 17:56:06 by gmalyana          #+#    #+#             */
+/*   Updated: 2025/03/12 17:56:10 by gmalyana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int main()
 {
 	int num = 6;
 	Zombie* zombies = zombieHorde(num, "zombieee");
-	if (zombies != nullptr){
+	if (zombies != NULL){
 		for(int i = 0; i < num; i++)
 		{
 			zombies[i].announce();

@@ -6,7 +6,7 @@
 /*   By: gmalyana <gmalyana@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/09 20:02:50 by gmalyana          #+#    #+#             */
-/*   Updated: 2025/02/18 19:26:13 by gmalyana         ###   ########.fr       */
+/*   Updated: 2025/03/12 18:15:06 by gmalyana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ class HumanB{
 		Weapon* weapon;
 		std::string name;
 	public:
-		HumanB(std::string name) : weapon(nullptr), name(name){}
+		HumanB(std::string name);
 		void attack();
 		void setWeapon(Weapon& w);
 };

@@ -1,6 +1,6 @@
 cmd = c++
 flags = -Wall -Wextra -Werror -std=c++98
-sources = main.cpp replace.cpp
+sources = main.cpp Replace.cpp
 objs = $(sources:.cpp=.o)
 NAME = replace
 

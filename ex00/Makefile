@@ -1,6 +1,6 @@
 cmd = c++
 flags = -Wall -Wextra -Werror -std=c++98
-sources = main.cpp zombie.cpp randomChump.cpp newZombie.cpp
+sources = main.cpp Zombie.cpp randomChump.cpp newZombie.cpp
 objs = $(sources:.cpp=.o)
 NAME = zombie
 

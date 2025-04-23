@@ -1,4 +1,4 @@
-    /* ************************************************************************** */
+/* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
 /*   Zombie.hpp                                         :+:      :+:    :+:   */
@@ -6,7 +6,7 @@
 /*   By: gmalyana <gmalyana@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/08 21:13:06 by gmalyana          #+#    #+#             */
-/*   Updated: 2025/02/08 22:43:34 by gmalyana         ###   ########.fr       */
+/*   Updated: 2025/03/12 17:59:11 by gmalyana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ class Zombie{
 		std::string name;
 	public:
 		void announce(void);
-		void zombiesName(std::string name);
+		void setName(std::string name);
 };
 Zombie* zombieHorde(int N, std::string name);
 

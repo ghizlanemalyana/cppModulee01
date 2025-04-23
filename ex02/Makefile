@@ -2,7 +2,7 @@ cmd = c++
 flags = -Wall -Wextra -Werror -std=c++98
 sources = main.cpp
 objs = $(sources:.cpp=.o)
-NAME = brain
+NAME = reference
 
 all: $(NAME)
 
